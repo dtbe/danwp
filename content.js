@@ -1,4 +1,5 @@
-$(function() {
 
-    $('#content').html(`this content comes from content.js`);
-});
+
+$('#content').html(`this content comes from content.js`);
+
+
