@@ -16,11 +16,7 @@ function worker(l,b,c) {
         `);
 
         if (logs){
-            console.log("%c what are you looking for? ", `color: ${color}; background: ${background}`)
+            console.log("%c live, laugh, love ", `color: ${color}; background: ${background}`)
         }
-        
-        AOS.init();
-        worker(logs);
-
     });
 }
