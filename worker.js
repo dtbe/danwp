@@ -12,7 +12,9 @@ function worker(l,b,c) {
         $('#workplace').html(`
             <div>live, laugh, love</div>
             <div class='small'>the worker.js controls this bit, and it doesn't need deployment</div>
-            it doesn't live here, it just works here
+            <div class='small'>it doesn't live here, it just works here</div>
+            <div class='small'>the css file isnt here either</div>
+            
         `);
 
         if (logs){
