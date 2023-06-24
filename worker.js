@@ -20,5 +20,8 @@ function worker(l,b,c) {
         if (logs){
             console.log("%c live, laugh, love ", `color: ${color}; background: ${background}`)
         }
+
+        $.getScript("content.js");
+        
     });
 }
