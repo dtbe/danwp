@@ -10,7 +10,7 @@ function worker(l,b,c) {
     $(function() {
 
         $('#workplace').html(`
-            <div class='text-highlight fw-bold'>live, laugh, love</div>
+            <div class='text-highlight fw-bold'>worker</div>
             <div class='small'>the worker.js controls this bit, and it doesn't need deployment</div>
             <div class='small'>it doesn't live here, it just works here</div>
             <div class='small'>the css file isnt here either</div>
@@ -18,10 +18,10 @@ function worker(l,b,c) {
         `);
 
         if (logs){
-            console.log("%c live, laugh, love ", `color: ${color}; background: ${background}`)
+            console.log("%c worker ", `color: ${color}; background: ${background}`)
         }
 
-        $.getScript("content.js");
+        // $.getScript("content.js");
         
     });
 }
