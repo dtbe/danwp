@@ -15,6 +15,7 @@ function worker(l,b,c) {
             <div class='small'>it doesn't live here, it just works here</div>
             <div class='small'>the css file isnt here either</div>
             
+            <div class='text-highlight fw-bold'>live, laugh, love</div>
         `);
 
         if (logs){
